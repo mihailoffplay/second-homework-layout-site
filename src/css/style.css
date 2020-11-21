@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+    max-width: 569px;
+}
+
+.main_logo img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 70px;
+    transition: 0.8s;
+}
+
+.logo, .main_text {
+    padding-top: 60px;
+    font: 400 34px 'Crete Round';
+    text-decoration: none;
+    color: #060c31;
+}
+
+.title {
+    width: 492px;
+    margin-top: 89px;
+    font: 400 58px 'Crete Round';
+}
+
+.title_descr {
+    margin-top: 36px;
+    width: 416px;
+    font: 400 15px 'Lato';
+    color: #060c31;
+}
+
+.get_started {
+    margin:47px 20px 28px 0;
+    width: 152px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #233fe2;
+    border: none;
+}
+
+.get_started:hover {
+    background-color: #3F4E63;
+    transition: 0.6s;
+    transform: translateX(10px)
+}
+
+.get_started, .start {
+    color: #fff;
+    font: 400 15px 'Lato';
+    text-decoration: none;
+}
+
+.create_account {
+    width: 164px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffb0b1;
+}
+
+.create_account, .create {
+    color: #060c31;
+    font: 400 15px 'Lato';
+    text-decoration: none;
+}
+
+.create_account:hover {
+    background-color: #CAFBB6;
+    transition: 0.6s;
+    transform: translateX(-10px);
+}
+
+.main_bg {
+    width: 717px;
+    height: 569px;
+    background: url('../img/main_bg.jpg') no-repeat;
+
+}
+
+.block_info {
+    margin-bottom: 10px;
+    font: 400 12px 'Crete Round';
+    text-align: center;
+}
