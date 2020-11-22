@@ -27,9 +27,13 @@ body {
 
 .title_descr {
     margin-top: 36px;
-    width: 416px;
+    width: 420px;
+    min-height: 70px;
     font: 400 15px 'Lato';
     color: #060c31;
+    letter-spacing: 0.75px;
+    line-height: 28px;
+
 }
 
 .get_started {
@@ -42,13 +46,17 @@ body {
 }
 
 .get_started:hover {
-    background-color: #3F4E63;
+    color: #060c31;
+    background-color: #ffb0b1;
+    border: 1px solid #233fe2;
     transition: 0.6s;
     transform: translateX(10px);
 }
 
 .get_started,
 .start {
+    width: 152px;
+    height: 50px;
     color: #fff;
     font: 400 15px 'Lato';
     text-decoration: none;
@@ -72,6 +80,7 @@ body {
     background-color: #CAFBB6;
     transition: 0.6s;
     transform: translateX(-10px);
+    border: 1px solid #233fe2;
 }
 
 .main_bg {
@@ -79,6 +88,11 @@ body {
     height: 569px;
     background: url("../img/main_bg.jpg") no-repeat;
 
+}
+
+.main_bg:hover {
+    transition: 1s;
+    transform: scale(1.05);
 }
 
 .block_info {
