@@ -94,7 +94,7 @@ body
     border: 1px solid #233fe2;
 }
 
-.main_bg 
+.main_background
 {
     width: 717px;
     height: 569px;
@@ -102,7 +102,7 @@ body
 
 }
 
-.main_bg:hover 
+.main_main_background:hover 
 {
     transition: 1s;
     transform: scale(1.05);
