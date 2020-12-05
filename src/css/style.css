@@ -31,17 +31,27 @@ p {
 
 }
 
-.get_started {
-    margin: 47px 20px 28px 0;
+.buttons
+{
+    margin-top: 47px;
+}
+
+.get_started 
+{
+    margin-right: 20px;
     width: 152px;
     height: 50px;
     border-radius: 25px;
     background-color: #233fe2;
     border: none;
+
+}
+
+.get_start_link
+{
     font: 400 15px 'Lato';
     color: #ffffff;
 }
-
 
 .create_account {
     width: 152px;
@@ -49,11 +59,15 @@ p {
     background: #ffffff;
     border-radius: 25px;
     border: 1px solid #ffb0b1;
+
+}
+
+.create_account_link
+{
     font: 400 15px 'Lato';
 }
 
 .main_background {
     width: 717px;
     height: 569px;
-
 }
