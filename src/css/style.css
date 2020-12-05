@@ -1,36 +1,26 @@
-body 
-{
+body {
     margin: 0 auto;
     max-width: 569px;
 }
 
-.main_logo img 
-{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    margin-left: 70px;
-    transition: 0.8s;
-}
-
 .logo,
-.main_text 
-{
+.main_text,
+a {
     padding-top: 60px;
     font: 400 34px 'Crete Round';
     text-decoration: none;
     color: #060c31;
 }
 
-.title 
-{
-    width: 492px;
+.title,
+h1 {
+    width: 450px;
     margin-top: 89px;
     font: 400 58px 'Crete Round';
 }
 
-.title_descr 
-{
+.title_descr,
+p {
     margin-top: 36px;
     width: 420px;
     min-height: 70px;
@@ -41,76 +31,29 @@ body
 
 }
 
-.get_started 
-{
+.get_started {
     margin: 47px 20px 28px 0;
     width: 152px;
     height: 50px;
     border-radius: 25px;
     background-color: #233fe2;
     border: none;
+    font: 400 15px 'Lato';
+    color: #ffffff;
 }
 
-.get_started:hover 
-{
-    color: #060c31;
-    background-color: #ffb0b1;
-    border: 1px solid #233fe2;
-    transition: 0.6s;
-    transform: translateX(10px);
-}
 
-.get_started,
-.start 
-{
+.create_account {
     width: 152px;
     height: 50px;
-    color: #fff;
-    font: 400 15px 'Lato';
-    text-decoration: none;
-}
-
-.create_account 
-{
-    width: 164px;
-    height: 50px;
+    background: #ffffff;
     border-radius: 25px;
     border: 1px solid #ffb0b1;
-}
-
-.create,
-.create_account 
-{
-    color: #060c31;
     font: 400 15px 'Lato';
-    text-decoration: none;
 }
 
-.create_account:hover 
-{
-    background-color: #CAFBB6;
-    transition: 0.6s;
-    transform: translateX(-10px);
-    border: 1px solid #233fe2;
-}
-
-.main_background
-{
+.main_background {
     width: 717px;
     height: 569px;
-    background: url("../img/main_background.jpg") no-repeat;
 
-}
-
-.main_main_background:hover 
-{
-    transition: 1s;
-    transform: scale(1.05);
-}
-
-.block_info 
-{
-    margin-bottom: 10px;
-    font: 400 12px 'Crete Round';
-    text-align: center;
 }
