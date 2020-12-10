@@ -31,39 +31,37 @@ p {
 
 }
 
-.buttons
-{
-    margin-top: 47px;
+.button {
+    margin: 48px 0 28px;
+    width: 717px;
 }
 
-.get_started 
-{
-    margin-right: 20px;
-    width: 152px;
+.get_started {
+    padding: 16px 36px;
+    width: 156px;
     height: 50px;
     border-radius: 25px;
+    border: solid 0 #fff;
+    text-decoration: none;
     background-color: #233fe2;
-    border: none;
-
+    font: 400 15px 'Lato';
+    color: #fff;
 }
 
-.get_start_link
-{
+.get_start_link {
     font: 400 15px 'Lato';
     color: #ffffff;
 }
 
 .create_account {
-    width: 152px;
+    margin-left: 20px;
+    width: 156px;
     height: 50px;
-    background: #ffffff;
+    padding: 16px 27.5px;
+    text-decoration: none;
     border-radius: 25px;
-    border: 1px solid #ffb0b1;
-
-}
-
-.create_account_link
-{
+    border: solid 1px #fbb0b1;
+    background-color: #fff;
     font: 400 15px 'Lato';
 }
 
